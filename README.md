@@ -20,7 +20,7 @@ This project is a comprehensive data analysis of individual player statistics fo
   - **Requests**: To send HTTP requests and retrieve web pages.
   - **BeautifulSoup**: To parse HTML and extract specific elements containing player data.
   - **Pandas**: To organize the scraped data into a structured format and export it to Excel.
-- **Excel**: Used for data cleaning, transformation, and analysis with pivot tables and slicers for interactive exploration. Conditional formatting is used to highlight successful (50% plus win/loss ratio) and unsuccessful years (25% and below).
+- **Excel**: Used for data cleaning, transformation, and analysis with pivot tables and slicers for interactive exploration. Conditional formatting is used to highlight successful (50% plus win/loss ratio) and unsuccessful (25% and below) years.
 - **Tableau**: For creating a visual dashboard that highlights key insights, such as the performance of non-primary scoring positions over time.
 
 ## Data Collection and Methodology
