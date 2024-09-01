@@ -66,7 +66,7 @@ for url in urls:
     # Find position element
     position_elements = soup.find_all("span", class_="sidearm-roster-player-position-long-short hide-on-small-down")
     
-    # Strip points from element
+    # Strip position from element and append to position_list
     for element in position_elements:
         position = element.text.strip()
         position_list.append(position)
@@ -91,7 +91,7 @@ for url in urls:
     year -= 1
 
 
-# Match identical names is position_data and scoring_data to consolidate information
+# Match identical names in position_data and scoring_data to consolidate information
 for year in position_data:
 
     for last_name, first_name, position in position_data[year]:
