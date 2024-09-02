@@ -41,5 +41,5 @@ This project is a comprehensive data analysis of individual player statistics fo
 
 ## Findings
 
-- **Key Insight**: The Tableau dashboard illustrates that during seasons when forwards (a position not primarily relied upon for scoring) contributed significantly to points, CSUN performed above average compared to other seasons.
-- This suggests a strategic advantage or adaptation by the team in leveraging non-traditional positions for scoring during these periods.
+- **Key Insight**: The Tableau dashboard reveals that seasons in which forwards—traditionally not the primary scorers—made substantial contributions to the team’s total points coincided with CSUN achieving an above-average win/loss ratio.
+- This suggests that to enhance performance in future seasons, CSUN should focus on recruiting high-scoring forwards.
