@@ -110,4 +110,4 @@ for year in position_data:
 df = pd.DataFrame(data, columns=['Year', 'Last Name', 'First Name', 'Position', 'Points'])
 
 # Export to Excel
-df.to_excel('consolidated_data.xlsx', index=False)
+df.to_excel('consolidated-data.xlsx', index=False)
