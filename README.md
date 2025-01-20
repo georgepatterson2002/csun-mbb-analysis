@@ -8,6 +8,8 @@ You can view the interactive Tableau dashboard for this project [here](https://p
 
 This project is a comprehensive data analysis of individual player statistics for the California State University, Northridge (CSUN) men's basketball team. The analysis focuses on player positions and points scored over the past nine seasons (Excluding covid year 2020). The data was collected using a Python web scraper I developed, processed in Excel, and visualized with Tableau to uncover insights about team performance, specifically regarding the contribution of forwards.
 
+Additionally, I have included a Machine Learning analysis for a macro dataset (`cbb.csv`) including all teams in Division 1 basketball and used the information to predict the seed placement of a team based on given features. The optimal Support Vector Classifier model finds an accuracy of 78.7% in its predictions.
+
 ## Project Goals
 
 - Scrape and consolidate individual player statistics (such as positions and points scored) from the CSUN men's basketball website.
@@ -43,3 +45,31 @@ This project is a comprehensive data analysis of individual player statistics fo
 
 - **Key Insight**: The Tableau dashboard reveals that seasons in which forwards—traditionally not the primary scorers—made substantial contributions to the team’s total points coincided with CSUN achieving an above-average win/loss ratio.
 - This suggests that to enhance performance in future seasons, CSUN should focus on recruiting high-scoring forwards.
+
+## (Additional) Machine Learning Summary
+
+The dataset includes various statistical features to predict team seed categories: "High," "Medium," or "Low." The project demonstrates data preprocessing, feature engineering, and the application of two machine learning models for classification.
+
+Models Implemented:
+
+**Random Forest Classifier:**
+- Achieved an accuracy of 77.2% on the test set.
+- The weighted average F1-score: 0.77.
+- Feature importance analysis revealed key factors influencing predictions.
+
+**Support Vector Classifier (SVC):**
+- Achieved a slightly higher accuracy of 78.7% on the test set.
+- Utilizes a linear kernel to classify team seeds based on scaled feature data.
+
+**Key Features:**
+- Data cleaning and handling missing values.
+- Correlation analysis to identify relationships between features.
+- Feature scaling with StandardScaler for consistent performance across models.
+- Detailed model evaluation with precision, recall, and F1-scores.
+- Visualizations include a correlation heatmap and feature importance bar chart.
+  
+**Conclusion:**
+
+The project highlights the effectiveness of Random Forest and SVC models for predicting basketball team performance categories. Most influential features included ADJOE, ADJDE, and 2P_D. Looking at the analysis, one noticable comparison we can inspect is 2 pointers have a much greater influence on a teams seasonal outcome as opposed to 3 pointers. Using this information, a coach can make actionable choices to improve team performance.
+
+
