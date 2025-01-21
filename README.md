@@ -1,5 +1,5 @@
 # CSUN_MBB_Analysis
-A deeper look into the CSUN Men's Basketball team performance (2015-2023). Analyzing the impact of specific positions and how CSUN has ranked within the conference.
+A deeper look into the CSUN Men's Basketball team performance (2015-2023). Analyzing the impact of specific positions and how CSUN has ranked within the conference alongside machine learning approaches with macro data to predict seed outcome based on selected features.
 
 ## Tableau Dashboard
 You can view the interactive Tableau dashboard for this project [here](https://public.tableau.com/app/profile/george.patterson4334/viz/CSUNAnalysis/TeamHistoryDashboard).
