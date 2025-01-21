@@ -48,7 +48,7 @@ Additionally, I have included a Machine Learning analysis for a macro dataset (`
 
 ## (Additional) Machine Learning Summary
 
-The dataset includes various statistical features to predict team seed categories: "High," "Medium," or "Low." The project demonstrates data preprocessing, feature engineering, and the application of two machine learning models for classification.
+The `cbb.csv` dataset includes various statistical features to predict team seed categories: "High," "Medium," or "Low." The project demonstrates data preprocessing, feature engineering, and the application of two machine learning models for classification.
 
 Models Implemented:
 
