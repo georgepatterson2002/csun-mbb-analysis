@@ -48,7 +48,7 @@ Additionally, I have included a Machine Learning analysis for a macro dataset (`
 
 ## (Additional) Machine Learning Summary
 
-The `cbb.csv` dataset includes various statistical features to predict team seed categories: "High," "Medium," or "Low." The project demonstrates data preprocessing, feature engineering, and the application of two machine learning models for classification.
+The `cbb.csv` dataset includes various statistical features which I have used to predict team seed (placement within conference for the season). Seeds have been grouped into categories: "High," "Medium," or "Low." The project demonstrates data preprocessing, feature engineering, and the application of two machine learning models for classification.
 
 Models Implemented:
 
@@ -70,6 +70,6 @@ Models Implemented:
   
 **Conclusion:**
 
-The project highlights the effectiveness of Random Forest and SVC models for predicting basketball team performance categories. Most influential features included ADJOE, ADJDE, and 2P_D. Looking at the analysis, one noticable comparison we can inspect is 2 pointers have a much greater influence on a teams seasonal outcome as opposed to 3 pointers. Using this information, a coach can make actionable choices to improve team performance.
+The project highlights the effectiveness of Random Forest and SVC models for predicting basketball team performance categories, with SVC being the most accurate. The most influential features included ADJOE, ADJDE, and 2P_D. Looking at the analysis, one noticable comparison we can inspect is 2 pointers have a much greater influence on a teams seasonal outcome as opposed to 3 pointers. Using this information, a coach can make actionable choices to improve team performance.
 
 
