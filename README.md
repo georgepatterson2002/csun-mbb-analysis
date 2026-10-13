@@ -72,4 +72,13 @@ Models Implemented:
 
 The project highlights the effectiveness of Random Forest and SVC models for predicting basketball team performance categories, with SVC being the most accurate. The most influential features included ADJOE, ADJDE, and 2P_D. Looking at the analysis, one noticable comparison we can inspect is 2 pointers have a much greater influence on a teams seasonal outcome as opposed to 3 pointers. Using this information, a coach can make actionable choices to improve team performance.
 
+## Local file setup
 
+The Python analysis loads `cbb.csv` relative to the script directory.
+The Tableau workbook uses `CSUN_MBB_Data.xlsx` and the local extract path
+`extracts/Players.hyper`. Open the workbook in Tableau, reconnect the Excel
+source to the included workbook if prompted, then recreate the extract at that
+relative path. Tableau extracts are generated locally and are not included.
+Optional dashboard bitmap files resolve from `assets` beside the workbook;
+provide those local files or remove their image zones when opening in Tableau.
+The public dashboard and documented basketball source links above remain available.
